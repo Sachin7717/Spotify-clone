@@ -14,3 +14,11 @@
 .justify-center{
     justify-content: center;
 }
+
+.rounded{
+    border-radius: 8px;
+}
+
+.m-1{
+    margin: 6px;
+}
