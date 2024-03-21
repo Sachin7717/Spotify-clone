@@ -27,6 +27,7 @@ body{
     width: 20px;
     gap: 15px;
     list-style: none;
+    padding: 14px;
 
 }
 
@@ -42,4 +43,8 @@ body{
 
 .bg-grey{
     background-color: #121212;
+}
+
+.rounded{
+    border-radius: 13px;
 }
