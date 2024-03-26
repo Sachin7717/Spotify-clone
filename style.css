@@ -23,6 +23,7 @@ body{
     height: 100vh;
     left: 25vw;
     color: white;
+    
 
 }
 
@@ -92,3 +93,16 @@ body{
     border-radius: 13px;
 }
 
+.header{
+    display: flex;
+    
+}
+.nav{
+    display: flex;
+ 
+}
+
+.header *{
+    padding: 8px;
+
+}
