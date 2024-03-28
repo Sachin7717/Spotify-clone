@@ -1,35 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-body{
-    /* background-color: black;
-    color: white; */
+
+body {
+    background-color: black;
+    overflow: hidden;
+
 }
 
-.left{
+.left {
     width: 25vw;
     padding: 10px;
-    
+
 }
 
-.right{
+.right {
     width: 75vw;
     position: absolute;
-    top: 0px;
+    top: 15px;
     height: 100vh;
-    left: 25vw;
+    left: 26.5vw;
     color: white;
-    
+    background-color: #121212;
+
 
 }
 
-.home{
-    
-}
+.home {}
 
 .home ul li {
     display: flex;
@@ -71,38 +72,74 @@ body{
 
 }
 
-.footer a{
+.footer a {
     color: grey;
 }
 
-.bg-black{
+.bg-black {
     background-color: black;
     color: white;
 }
 
-.invert{
+.invert {
     filter: invert(1);
-   
+
 }
 
-.bg-grey{
+.bg-grey {
     background-color: #121212;
 }
 
-.rounded{
+.rounded {
     border-radius: 13px;
 }
 
-.header{
+.header {
     display: flex;
-    
-}
-.nav{
-    display: flex;
- 
+
 }
 
-.header *{
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.header * {
     padding: 8px;
 
+}
+
+#login {
+    height: 50px;
+    width: 110px;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+
+}
+
+#sign {
+    height: 50px;
+    width: 110px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    color: grey;
+    border: none;
+
+}
+
+.upperhead {
+    width: 72vw;
+}
+
+p {
+    color: grey;
+}
+
+img{
+    width: 200px;
+    border-radius: 100%
 }
