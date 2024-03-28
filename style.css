@@ -139,7 +139,56 @@ p {
     color: grey;
 }
 
-img{
-    width: 200px;
-    border-radius: 100%
+#bill{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%
+}
+
+.dabba{
+    padding: 20px;
+    display: flex ;
+    flex-direction: column;
+    
+}
+.gola{
+    overflow: hidden;
+    height: 170px;
+}
+
+.play{
+    height: 65px;
+    width: 65px;
+    background-color: rgb(108, 247, 108);
+    position: relative;
+    top: 0px;
+    left: 110px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle{
+    height: 35px;
+    width: 35px;
+
+}
+
+.gola:hover{
+    &.play{
+        animation: goup 2s ease-in 0s 1 forwards;
+    }
+    
+
+}
+
+@keyframes goup {
+    0%{
+        top:0px;
+
+    }
+    100%{
+        top:-70px;
+    }
 }
